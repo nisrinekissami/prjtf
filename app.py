@@ -1,8 +1,6 @@
 """
 app.py
 ------
-Dashboard de diagnostic automatisé des temps d'arrêt (downtime)
-Projet PFA - Génie Mécatronique - Cas Versigent
 
 Lancer avec :
     streamlit run app.py
@@ -736,9 +734,3 @@ with st.expander("🗂️ Aperçu du plan d'action pré-rempli inclus dans la pr
         "détaillée, l'action corrective, le responsable et l'échéance — au lieu de partir d'une "
         "page blanche."
     )
-
-st.divider()
-st.caption(
-    "Développé dans le cadre d'un Projet de Fin d'Année — Génie Mécatronique. "
-    "Basé sur les données réelles de suivi downtime Versigent (Kaizen Event 4Q)."
-)
